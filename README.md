@@ -6,6 +6,7 @@ with a particular emphasis on natural language processing (NLP)
 
 # Notes Table
 
-| Note                          | Description                                        | Source                             |
-|-------------------------------|----------------------------------------------------|------------------------------------|
-| Memory estimation for serving | Estimate memory for serving model from huggingface | [gpu_usage.py](notes/gpu_usage.py) |
+| Note                          | Description                                                 | Source                                           |
+|-------------------------------|-------------------------------------------------------------|--------------------------------------------------|
+| Memory estimation for serving | Estimate memory for serving model from huggingface          | [gpu_usage.py](notes/gpu_usage.py)               |
+| Count parameters              | Count number of parameter of model and trainable parameters | [count_parameters.py](notes/count_parameters.py) |
